@@ -1,0 +1,31 @@
+.outer{
+    /* background-image: url("https://t4.ftcdn.net/jpg/01/77/49/97/360_F_177499766_W6MLbCRYRRlsDr2EnSZS71QWjIT6ubJG.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    height: 60vh;
+    width: 100vw;
+    padding: 30px;
+}
+.textpart{
+
+}
+.text{
+    color: white;
+}
+.btn{
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+.red{
+    color: rgb(171, 169, 169);
+}
+.img{
+    width: 400px;
+    height: 90%;
+}

@@ -3,11 +3,36 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AllTrainer from './molecules/allTrainer/allTrainer';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Register from './molecules/registeration/Registeration';
+import Login from './molecules/login/login';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/trainers",
+    element: <AllTrainer />
+  },
+  {
+    path: "/signup",
+    element: <Register />
+  },
+  {
+    path: "/login",
+    element: <Login />
+  }
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <RouterProvider router={router} />
   </React.StrictMode>
 );
 

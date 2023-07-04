@@ -1,0 +1,50 @@
+.trainerSection {
+    padding: 40px;
+    background-color: #f8f8f8;
+    height: 60vh;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    height: fit-content;
+  }
+  .cardContainer-webtoolkit{
+    display: none;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 50vh;
+    max-height: 50vh;
+    
+  }
+
+  .img{
+  height: 50%;
+  width: 100%;
+  }
+
+  .arrow{
+    font-size: 20px;
+  }
+  
